@@ -114,6 +114,34 @@ Include links to booking sites, permit applications, maps, and resources. We use
 
 Each major research area is a feature with its own spec and output. The vision doc (this file) provides the shared context that every feature spec references. Features should be runnable independently via `claude -p` in non-interactive mode.
 
+### Proposed Features
+
+These are the research areas to specify and implement. Each becomes a spec kit feature. Order reflects decision dependencies — destination research comes first since later features depend on knowing where we're going.
+
+**Phase 1: Destination Research** (needed to choose between Yellowstone loop vs. Glacier)
+
+1. **yellowstone-loop-overview** — Greater Yellowstone Loop route, timing, logistics, what each area (Yellowstone, Beartooth, Tetons) offers, suggested day allocation, driving distances, and a proposed itinerary skeleton.
+2. **glacier-overview** — Glacier National Park route, timing, logistics, what the park and adjacent areas offer, suggested day allocation, and a proposed itinerary skeleton.
+
+**Phase 2: Activity Research** (run for the chosen destination, or both if we can't decide)
+
+3. **hiking-trails** — Day hike options organized as day-by-day menus grouped by effort level (chill / standard / big day). Include iconic trails AND lesser-known gems with solitude. For each: distance, elevation gain, trailhead parking, crowd level, what makes it special. Searchable in CalTopo/Gaia/AllTrails.
+4. **backpacking-options** — 1–2 night backcountry routes. Permit requirements, bear safety considerations, water sources, difficulty, and what makes each route worth the effort.
+5. **bouldering-spots** — Outdoor bouldering areas near the parks with problems in the V4–V10 range. Pad rental shops, access info, best times.
+6. **biking-and-rafting** — Mountain bike rentals and beginner-to-intermediate trails. White water rafting and canoeing guided trips and rental options. Pricing and booking info.
+7. **scenic-drives** — Beartooth Highway, Going-to-the-Sun Road, or other scenic drives relevant to the destination. Best times, stops, conditions.
+
+**Phase 3: Logistics**
+
+8. **flights-and-car** — Flights from BOS to destination airports, rental car options (AWD/4WD needs, one-way rentals), price ranges, and booking strategy.
+9. **campsites-and-permits** — Campsite reservations (when they open, links, strategy), backcountry permits (lottery/FCFS, deadlines), park entrance fees, timed entry if applicable. Time-sensitive — flag any deadlines.
+10. **bear-safety** — Grizzly country preparation. What we know vs. what we need to learn, where to buy bear spray near airport, park regulations, recommended resources or ranger briefings.
+11. **gear-and-rentals** — Gear we need to acquire at destination (bear spray, bouldering pads, bike rental). Where to get it, pricing, reservation needs.
+
+**Phase 4: Fun Stuff**
+
+12. **food-and-breweries** — Breweries, burger spots, pubs, banh mi, and local gems in gateway towns. Grocery store locations for stocking up. The vibe we like: tasty, filling, reasonably priced, dark-wood-and-metal aesthetic.
+
 ## Timeline Awareness
 
 It is currently March 2026. Some campsite and permit reservations may already be open or opening soon. Research should flag any time-sensitive deadlines so we don't miss booking windows.
