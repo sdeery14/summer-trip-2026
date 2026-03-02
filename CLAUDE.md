@@ -40,9 +40,10 @@ All output documents must follow these rules from `vision.md`:
 
 ## Key Details to Remember
 
-- Departing from **Arlington, MA** (fly from BOS)
-- Two destination candidates: **Greater Yellowstone Loop** (Yellowstone → Beartooth → Tetons) and **Glacier National Park**
-- **Car camping** is the base mode; backcountry backpacking is a stretch goal
+- Departing from **Arlington, MA** (fly round-trip BOS → BZN)
+- **Chosen destination:** Greater Yellowstone Loop — **Tetons → Yellowstone → Beartooth/Shoshone NF → BZN**
+- **~10 days** on the ground: 3 days Tetons, 3-4 days Yellowstone, 2-3 days Beartooth
+- **Car camping** is the base mode; **backpacking in Beartooth Wilderness** is a strong option
 - They are **fit and experienced** hikers (10+ mile days standard), but this is their **first time in grizzly country**
 - She is a **V10 boulderer** — include bouldering spots and pad rental info
 - They value **going deeper than typical tourists** — lesser-known trails and solitude over famous crowded overlooks

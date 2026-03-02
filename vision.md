@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository is a decision-support system for planning a ~1 week summer trip for two people. We use Claude Code in non-interactive mode to research, plan, and generate decision-support documents organized as features using spec kit. The goal is to have well-researched information in front of us so we can make confident decisions — not to have Claude make decisions for us.
+This repository is a decision-support system for planning a ~10-day summer trip for two people. We use Claude Code in non-interactive mode to research, plan, and generate decision-support documents organized as features using spec kit. The goal is to have well-researched information in front of us so we can make confident decisions — not to have Claude make decisions for us.
 
 ## Who
 
@@ -14,22 +14,39 @@ This repository is a decision-support system for planning a ~1 week summer trip 
 ## Trip Overview
 
 - **When:** Late summer 2026 (targeting best conditions — likely late July through early September). Exact dates flexible.
-- **Duration:** ~1 week on the ground.
-- **Travel:** Fly from Boston area, rent a car at destination.
-- **Style:** Car camping as the base mode. Interested in backcountry backpacking if a compelling 1-2 night option presents itself. Not looking for hotels or glamping.
+- **Duration:** ~10 days on the ground.
+- **Travel:** Fly round-trip BOS → BZN (Bozeman). Rent a car at BZN, return to BZN.
+- **Style:** Car camping as the base mode. Backcountry backpacking is a strong option, especially in the Beartooth Wilderness. Not looking for hotels or glamping.
 - **Budget mindset:** We are not on a strict budget. We make enough to cover this trip comfortably. Our goal is to spend smart — we value convenience and maximizing time doing fun things, but we don't want to overpay for anything. Pay for the thing that makes the trip better (a well-located campsite, a rental car that handles dirt roads, a guided rafting trip). Skip the thing that's overpriced for what it is. Research should surface prices so we can see what things cost, but should NOT filter out options just because they're expensive. Flag value, not limits.
 
-## Destination Candidates
+## Chosen Destination: Greater Yellowstone Loop
 
-Research and produce decision-support documents for **two destination options**. We will choose between them once we can compare the information side by side.
+A ~10-day multi-park road trip through Grand Teton NP, Yellowstone NP, and the Beartooth Mountains / Shoshone National Forest. Round-trip from Bozeman (BZN).
 
-### Option A: Greater Yellowstone Loop
+### Route (counterclockwise, south-first)
 
-A multi-park road trip, potentially: Airport → Yellowstone → Beartooth Highway → Grand Tetons → Airport. Similar structure to last year's Yosemite → Sequoia trip.
+**BZN → Grand Tetons → Yellowstone → Beartooth / Shoshone NF → BZN**
 
-### Option B: Glacier National Park
+This order minimizes dead driving — the Tetons are the farthest point from Bozeman, so we drive there first and work our way back north. The trip ends near Red Lodge, which is only 1 hour from the Bozeman airport.
 
-Potentially a single-park deep dive. May have nearby areas worth including — research should clarify whether Glacier alone fills a week or if adjacent areas (Flathead National Forest, Bob Marshall Wilderness, etc.) should be part of the plan.
+### Day Allocation (~10 days)
+
+| Phase | Days | Focus |
+|-------|------|-------|
+| **Day 0** | 1 | Fly into BZN, bear spray, groceries, drive south to Tetons (~3.5 hrs via Gallatin Canyon) |
+| **Days 1–3** | 3 | **Grand Tetons** — big day hikes, bouldering at Teton Boulder Park, maybe a backpacking night, Jackson for celebration dinner |
+| **Day 4** | 1 | Drive north through Yellowstone to central/north areas (~2–3 hrs, stop at things on the way) |
+| **Days 4–7** | 3–4 | **Yellowstone** — iconic hikes, geothermal (Grand Prismatic, Old Faithful, Norris), Lamar Valley wildlife, Grand Canyon of Yellowstone |
+| **Day 7/8** | 1 | Drive out NE entrance → Beartooth Highway → Red Lodge (~2.5 hrs, the drive IS the activity) |
+| **Days 8–10** | 2–3 | **Beartooth / Shoshone NF** — alpine hiking on the plateau, optional backpacking in Beartooth Wilderness, Red Lodge brewery |
+| **Day 10** | 1 | Red Lodge → BZN (1 hr), fly home |
+
+### Why This Order
+- **Tetons first:** Start with the most dramatic alpine hiking while fresh and excited. Bouldering at Teton Boulder Park (Driggs) fits naturally here.
+- **Yellowstone in the middle:** Iconic geothermal and wildlife — the greatest hits. More variety and recovery-friendly options between two intense hiking phases.
+- **Beartooth last:** End with wilderness solitude on the plateau. Optional backpacking trip here as a capstone. Red Lodge is 1 hour from BZN — easy last-day drive to the airport.
+
+*Glacier National Park was the runner-up. Research is kept in [features/glacier-overview](features/glacier-overview/output.md) for future reference.*
 
 ## What We Value
 
@@ -70,12 +87,12 @@ This trip is a celebration — he finished school and got a better job, she is d
 ## Logistics to Research
 
 ### Flights
-- Boston (BOS) to nearest airports for each destination option. For Yellowstone loop: Bozeman (BZN), Jackson Hole (JAC), or others. For Glacier: Kalispell/Glacier Park International (FCA) or others.
+- Round-trip BOS → BZN (Bozeman). Simplest and cheapest option — no open-jaw or one-way rental needed.
 - Target late summer dates. Flag price ranges and whether flexibility on exact dates saves significant money.
 
 ### Rental Car
-- Needs to be suitable for park roads and trailhead access. Research whether 4WD/AWD is needed or recommended for either destination.
-- Pickup and dropoff — same airport or could a one-way rental make the route better?
+- Round-trip from BZN. Needs to be suitable for park roads and trailhead access. Midsize SUV (RAV4/Outback class) recommended for ground clearance at trailheads.
+- No one-way rental needed — trip starts and ends in Bozeman.
 
 ### Permits & Reservations
 - **Backcountry permits:** How to get them, lottery vs. first-come-first-served, key dates and deadlines, links to the actual permit systems.
@@ -152,5 +169,5 @@ When this repo is done, we should be able to:
 1. **Choose a destination** by comparing two well-researched option documents side by side.
 2. **Book everything** using the links and timing info in the logistics docs.
 3. **Show up prepared** with bear safety knowledge, gear acquired, and major logistics locked in.
-4. **Have an amazing week** using day-by-day activity menus to make spontaneous but informed decisions on the ground.
+4. **Have an amazing 10 days** using day-by-day activity menus to make spontaneous but informed decisions on the ground.
 5. **Go home proud** knowing we didn't just scratch the surface — we went deeper than most and earned every view.
